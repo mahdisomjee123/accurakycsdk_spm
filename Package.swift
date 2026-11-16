@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AccuraOCR",
-            url: "https://github.com/mahdisomjee123/accurakycsdk_spm/releases/download/0.0.1/AccuraOCR.xcframework.zip",
+            url: "https://github.com/mahdisomjee123/accurakycsdk_spm/releases/download/0.0.2/AccuraOCR.xcframework.zip",
             checksum: "1b4ca1f35b2a956a7cff2ee4fbff0db783e3d0b2deeb782a4d3cb256d524ccd1"
         ),
         // Dynamic frameworks that AccuraOCR.framework loads at launch via @rpath.
